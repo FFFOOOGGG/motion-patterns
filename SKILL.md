@@ -1,10 +1,6 @@
 ---
 name: motion-patterns
 description: 分析、设计、实现和评审页面转场动效。适用于页面切换、路由跳转、层级进入与返回、模态覆盖、共享元素、容器变换和手势驱动转场；指导 Agent 根据产品语义与当前技术栈输出可执行的动效规格，不预设 React、JavaScript 或特定动画库。
-tags: [motion, animation, page-transition, ui-ux]
-category: design
-metadata:
-  version: 2.0.0
 ---
 
 # 页面转场动效
