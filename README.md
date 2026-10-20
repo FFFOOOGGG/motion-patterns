@@ -11,17 +11,11 @@
 
 ## 安装
 
-将本仓库克隆到 Cursor 的个人 Skills 目录：
-
-```bash
-git clone https://github.com/FFFOOOGGG/motion-patterns.git ~/.cursor/skills/motion-patterns
-```
-
-也可以把 `SKILL.md` 放到项目内的 `.cursor/skills/motion-patterns/`。
+将包含 `SKILL.md` 和 `references/` 的完整目录放入宿主工具支持的个人或项目 Skills 目录。具体路径遵循宿主工具的 Agent Skills 约定。
 
 ## 使用
 
-在 Cursor 中提出页面切换、路由跳转、共享元素、手势返回或转场评审需求时使用此 Skill。Agent 会先判断产品语义和页面关系，再结合当前项目的实际技术栈给出规格或实现。
+向 Agent 提出页面切换、路由跳转、共享元素、手势返回或转场评审需求时使用此 Skill。Agent 会先判断产品语义和页面关系，再结合当前项目的实际技术栈给出规格或实现。
 
 ## 说明
 
