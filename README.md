@@ -1,13 +1,13 @@
 # Motion Patterns
 
-面向 React 与 Next.js 的生产级界面动效 Agent Skill，涵盖：
+面向 Agent 的平台无关页面转场动效 Skill，涵盖：
 
-- 页面转场与退出动画
-- 按钮、弹窗和 Toast 反馈
-- 列表交错动画
-- 滚动触发与滚动进度
-- 布局动画与共享元素转场
-- 动效性能与无障碍约束
+- 页面关系与转场模式判断
+- 进入、退出、返回和中断行为
+- 模态覆盖、共享元素与容器变换
+- 手势驱动和可中断转场
+- 时长、缓动、时间轴与 reduced motion
+- 按当前项目技术栈实现与验证
 
 ## 安装
 
@@ -21,11 +21,11 @@ git clone https://github.com/FFFOOOGGG/motion-patterns.git ~/.cursor/skills/moti
 
 ## 使用
 
-在 Cursor 中提出 React、Next.js、Motion 页面转场或界面动效需求时使用此 Skill。
+在 Cursor 中提出页面切换、路由跳转、共享元素、手势返回或转场评审需求时使用此 Skill。Agent 会先判断产品语义和页面关系，再结合当前项目的实际技术栈给出规格或实现。
 
 ## 说明
 
-示例依赖 `motion/react`，并假设项目已提供 `motionTokens`、`springs` 和 reduced-motion 辅助方法。
+此 Skill 不绑定 React、JavaScript、CSS 或特定动画库。只有在用户要求实现时，Agent 才会检查代码库并使用项目现有语言、框架、组件和动效能力。
 
 ## License
 
