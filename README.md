@@ -26,7 +26,3 @@ git clone https://github.com/FFFOOOGGG/motion-patterns.git ~/.cursor/skills/moti
 ## 说明
 
 此 Skill 不绑定 React、JavaScript、CSS 或特定动画库。只有在用户要求实现时，Agent 才会检查代码库并使用项目现有语言、框架、组件和动效能力。
-
-## License
-
-MIT
